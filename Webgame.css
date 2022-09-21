@@ -1,0 +1,235 @@
+.boKhung
+{
+    border: none;
+}
+.keKhung
+{
+    border-bottom: 0.5px solid rgba(135, 151, 174, 0.15);
+}
+.white{background-color: #fff;}
+.black{color: #3a3f45;}
+.header a, .btn a{text-decoration: none;color: #3f444a;}
+.btn {text-transform: uppercase}
+.header a:hover, .navbar-nav li > a:hover{color: #337ab7;}
+.navbar-nav li > a
+{
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    padding: 18px 12px 18px 12px;
+}
+.navbar-nav li:hover{background-color: #fcf8f8;}
+.navbar-nav a:hover{color: #337ab7;}
+.navbar-nav i:hover{color: #337ab7;}
+.navbar-right .btn
+{
+    padding: 6px 18px 4px 18px;
+    border: none;border: 1px solid #3a3f45;
+    border-radius: 15px;margin: 10px 6px 10px 6px;
+}
+.navbar-right .lh{top: 15px;}
+.navbar-right .btn:hover{background-color: #000;color: #fff;}
+.gachke
+{
+    width: 100px;
+    height: 1px;
+    margin: 20px auto;
+    border-bottom: 4px solid #e90606;
+}
+.gachkeblue
+{
+    width: 100px;
+    height: 1px;
+    margin: 20px auto;
+    border-bottom: 4px solid #0096ff;
+}
+.tieude 
+{
+    margin: 40px 0px 20px 0px;
+    padding: 0px 15px 0px 15px;
+    line-height: 1.1;
+}
+.tieude h2
+{
+    margin-bottom: 0px;margin: 10px 0;
+    width: 100%;
+    font-size: 23px;
+    color: #505050;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.giaodich .container-fluid, .camket .container-fluid
+{
+    padding: 20px 0px 20px 0px;
+}
+.giaodich .container
+{    
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+}
+.col-lg-3{padding: 0px 5px 0px 5px;}
+.b1, .b2, .b3{padding: 2px; margin: 20px 20px 30px 30px;width: 85%;}
+.col-lg-3 .b2, .col-lg-3 .b3{border: 1px solid #e0e0e0;border-radius: 5px;}
+.col-lg-3 img{width: 100%;}
+.col-lg-3 .caption{width: 100%; text-align: center;}
+.b1 a
+{
+    text-decoration: none;color: #3a3f45;
+    font-weight: bold;font-size: 15px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.b1 a:hover{color: tomato;}
+.b2 a, .b3 a
+{
+    font-size: 12px;font-weight: bolder;
+    text-decoration: none;color: #3a3f45;
+}
+.b2 .caption, .b3 .caption{line-height: 2.8rem;}
+.giaodich .b1:hover, .mucgame .b2:hover, .dichvu .b3:hover
+{
+    border-color: #000;
+    box-shadow: 10px 10px 12px #3f444a;
+    transition: ease-in;animation-delay: 2s;
+}
+.b2 .btn
+{
+    width: 70%;margin-bottom: 15px;
+    border-color: #e90606;
+}
+.b3 .btn
+{
+    width: 70%;margin-bottom: 15px;
+    border-color: #0096ff;
+}
+.b3 .btn > a{color: #0096ff;}
+.b2 .btn:hover{background-color: #e90606; }
+.b2 .btn > a:hover{color: #fff;}
+.b3 .btn:hover{background-color: #0096ff; }
+.b3 .btn > a:hover{color: #fff;}
+.caption p{color: #5c6873;}
+.camket .col-lg-4
+{
+    width: 33%;padding: 0px 5px 0px 5px;
+}
+.camket .col-lg-4 > img{width: 100%;}
+.blackG{background-color: #333;}
+.whiteT{color: #fff;}
+.blueD{color: #32c5d2}
+.footer .col-lg-6{float: left;width: 350px;line-height: 2.8rem;}
+.col-lg-6 ul{padding: 0;}
+.col-lg-6 li > a{color: #fff;}
+.col-lg-6 .linklist > li{border-bottom: 0.5px solid #fff;}
+.col-lg-6 .linklist > li > a:hover{color: #32c5d2;text-decoration: none;}
+.col-lg-6 .follow > li{display: inline-block;}
+.follow li 
+{
+    border: 1px solid;width: 15%;
+    text-align: center;background-color: #3f444a;
+    margin-right: 5px;padding: 10px;
+}
+.col-lg-6 h3{font-weight: bold;font-size: 140%;}
+.col-lg-6 h3, .col-lg-6 p, .linklist li > a, .address li > a{font-family: "Roboto Condensed", sans-serif;}
+.follow li > a:hover{color: #0096ff;}
+.address li > a{text-decoration: none;}
+.col-lg-6 h3{margin: 20px 0px 10px 0px;}
+.col-lg-6 p, .col-lg-6 .follow{margin: 30px 0px 30px 0px;}
+.dropdown-content{
+    display: block;
+    background-color: #e0e0e0;
+}
+.dropdown-content li{width: 100%;list-style: none}
+.dropdown-content ul{padding: 0;}
+.dropdown-content li > a{color: #5c6873;text-decoration: none;font-size: 65%;}
+.dropdown-content{display: none;}
+.dropdown:hover .dropdown-content{display: flex;position: absolute;}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#form_login{
+    max-width: 400px;
+    background: rgba(179, 178, 178, 0.5);
+    padding: 30px;
+    flex-grow: 1;
+    box-shadow: rgba(245, 245, 245, 0.5);
+    border-radius: 8px;
+}
+.form_heading{
+    margin-bottom: 30px;
+}
+.form_input #account, .form_input #passwd{
+    width: 100%;height: 50px;
+    margin-bottom: 20px;
+    border: none;padding: 10px 42px 10px 50px;
+    outline: none;font-size: 18px;font-weight: bolder;
+    color: #333;border-radius: 50px;
+}
+#form_submit, #form_submit1{
+    border: none;
+    width: 100%;border-radius: 50px;
+    background-color: #333;color: #fff;
+    font-size: 18px;font-weight: bolder;
+    padding: 10px 16px;cursor: pointer;
+}
+#form_submit_register{
+    font-size: 18px;font-weight: bolder;
+    padding: 10px 16px;cursor: pointer;
+    border: none;
+    width: 100%;border-radius: 50px;
+}
+#form_login .other{
+    width: 100%;margin-top: 15px;
+}
+#form_login{
+    margin: auto;
+}
+.other #quen, .other #dk, .text-center, .text-center a{
+    text-decoration: none;
+    color: #333;font-family: sans-serif;
+    font-size: 14px;font-weight: bolder;
+}
+.text-center{text-align: center;}
+.other #quen{
+    float: left;
+}
+.other #dk{
+    float: right;
+}
+#wrapper, #wrapper1{
+    min-height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/Login_bg.jpg);
+    background-size: cover;
+}
+#form_submit:hover{
+    background-color: rgb(37, 37, 37);
+}
+#content, #content1, #content2, #content3, #content4{
+    display: none;
+}
+.giaodich .text{
+    background-color: #bbe7fe;padding: 20px 15px;
+    font-weight: 700;font-size: 18px;
+    color: #5c6873;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.nut{width: 100%;}
+.nut ul{padding: 0px;}
+.nut ul > li{
+    list-style: none;display: inline-block;
+    padding: 8px;float: right;border: 1px solid #5c6873;
+    margin: 5px;border-radius: 20px;
+}
+.Orange{
+    background-color: #ff5722;
+}
+.nut ul > li:hover{
+    background-color: #5c6873;
+    color: #fff;cursor: pointer;
+}
